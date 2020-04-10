@@ -17,15 +17,10 @@
         android:label="@string/title_history"
         tools:layout="@layout/fragment_dashboard" />
 
-    <fragment
-        android:id="@+id/navigation_qr"
-        android:name="com.example.musicalapp.ui.qr.QrFragment"
-        android:label="@string/title_qr"
-        tools:layout="@layout/fragmen_qr"/>
 
     <fragment
         android:id="@+id/navigation_mail"
         android:name="com.example.musicalapp.ui.notifications.NotificationsFragment"
-        android:label="@string/title_mail"
+        android:label="@string/title_qr"
         tools:layout="@layout/fragment_notifications" />
 </navigation>

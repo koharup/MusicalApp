@@ -1,6 +1,7 @@
 package com.example.musicalapp
 
 import android.os.Bundle
+import android.view.Menu
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
@@ -19,10 +20,15 @@ class MainActivity : AppCompatActivity() {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         val appBarConfiguration = AppBarConfiguration(setOf(
-                R.id.navigation_home, R.id.navigation_history, R.id.navigation_qr))
+                R.id.navigation_home, R.id.navigation_history, R.id.navigation_mail))
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
 
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.main,menu)
+        return true
     }
 }

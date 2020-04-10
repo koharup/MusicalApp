@@ -11,14 +11,10 @@
         android:icon="@drawable/ic_history_black_24dp"
         android:title="@string/title_history" />
 
-    <!--<item
-        android:id="@+id/navigation_qr"
-        android:icon="@drawable/ic_select_all_black_24dp"
-        android:title="@string/title_qr" />
--->
     <item
         android:id="@+id/navigation_mail"
-        android:icon="@android:drawable/ic_dialog_email"
-        android:title="@string/title_mail" />
+        android:icon="@drawable/ic_select_all_black_24dp"
+        android:title="@string/title_qr" />
+
 
 </menu>
