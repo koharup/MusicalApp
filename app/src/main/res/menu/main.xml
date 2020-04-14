@@ -8,16 +8,6 @@
         android:id="@+id/twitter"
         android:title="Twitter" />
     <item
-        android:id="@+id/question"
-        android:title="お問い合わせ" >
-        <menu android:id="@+id/questionpage">
-            <item
-                android:id="@+id/sms"
-                android:title="SMS" />
-            <item
-                android:id="@+id/mail"
-                android:title="Mail" />
-        </menu>
-
-    </item>
+        android:id="@+id/mail"
+        android:title="Mail" />
 </menu>

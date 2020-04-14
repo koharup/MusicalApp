@@ -57,9 +57,9 @@ class MainActivity : AppCompatActivity() {
                 return true
             }
             R.id.mail -> {
-                val email = "anandpita18@icloud.com"
+                val email = "musicalpool@sugiope.org"
                 val subject = "問い合わせ"
-                val text = "以下のとおり質問します"
+                val text = "ミュージカルプールについて以下質問です。"
                 val uri = Uri.parse("mailto:")
                 val intent = Intent(Intent.ACTION_SENDTO)
                 intent.data = uri
@@ -71,17 +71,6 @@ class MainActivity : AppCompatActivity() {
                 }
                 return true
             }
-            R.id.sms ->{
-                val number = "03-3380-1042"
-                val uri = Uri.parse("sms:$number")
-                val intent = Intent(Intent.ACTION_VIEW)
-                intent.data = uri
-                startActivity(intent)
-                return true
-            }
-
-
-
 
         }
 
